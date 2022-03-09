@@ -1,6 +1,12 @@
+# from distutils.core import setup
+# setup(name='geometry',
+#       version='1.0',
+#       py_modules=['geometry'],
+#       )
+
 from math import sqrt
 from math import pi as pi
-import pwd
+
 
 def circle():
     r = float(input("Enter the radius of a circle: "))
@@ -15,3 +21,4 @@ def hypotenuse():
 	c = sqrt(a**2 + b**2)
 
 	print (f"The area of the circle is {c}")
+
